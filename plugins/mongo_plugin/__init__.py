@@ -1,0 +1,3 @@
+from airflow.plugins_manager import AirflowPlugin
+
+from mongo_plugin.operators.bigquery_to_mongodb import BigQueryToMongoDB
