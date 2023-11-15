@@ -1,0 +1,39 @@
+repo_name: mollypi/BigQuery_to_Mongo
+report_id: 0e7edbc35c6825eda9c0bce5a7fbfdac
+repo_type: Public
+timestamp: '2023-11-15T05:29:41+00:00'
+requested_by: Wuerike
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source: plugins/mongo_plugin/operators/bigquery_to_mongodb.py
+  last_updated_by: Wuerike
+  last_updated_on: 2021-09-24 23:37:31.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
